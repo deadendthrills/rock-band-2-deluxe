@@ -602,7 +602,7 @@
                {{tour band}
                   world_event_status}}
             {$this start_event_select summary}
-            {ui goto_screen tour_world_details_screen}}})
+            {ui goto_screen tour_profile_world_screen}}})
    (BUTTON_DOWN_MSG
       {cond
          ({== $action kAction_Option}
@@ -611,7 +611,7 @@
                {{tour event}
                   is_battle}
                {$this start_event_select setlist}
-               {ui goto_screen tour_world_details_screen}})}
+               {ui goto_screen tour_profile_world_screen}})}
       kDataUnhandled)}
 {new
    BandScreen
