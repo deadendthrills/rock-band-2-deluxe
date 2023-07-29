@@ -3,7 +3,6 @@ from pathlib import Path
 from subprocess import CalledProcessError
 from sys import platform
 import subprocess
-from check_git_updated import check_git_updated
 import os
 
 def rm_tree(pth):
@@ -59,11 +58,6 @@ def build_patch_ark(xbox: bool, rpcs3_directory: str = None, rpcs3_mode: bool = 
         if platform != "darwin":
             make_executable_binaries()
     patch_hdr_version = "patch_xbox" if xbox else "patch_ps3"
-
-    # pull the latest changes from the Rock Band 2 Deluxe repo if necessary
-    if not check_git_updated(repo_url="https://github.com/hmxmilohax/rock-band-2-deluxe", repo_root_path=root_dir):
-        cmd_pull = "git pull https://github.com/hmxmilohax/rock-band-2-deluxe main".split()
-        subprocess.run(cmd_pull, shell=(platform == "win32"), cwd="..")
 
     # temporarily move other console's files out of the ark to reduce overall size
     for f in ark_dir.rglob(files_to_remove):

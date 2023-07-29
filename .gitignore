@@ -45,3 +45,7 @@ dependencies/windows/arkhelper.exe
 dependencies/windows/dtab.exe
 dependencies/windows/superfreq.exe
 user_scripts/rpcs3_directory.txt
+dependencies/dev_scripts/build_ark.py
+user_scripts/build_xbox.py
+user_scripts/build_xbox.py
+dependencies/dev_scripts/build_ark.py
