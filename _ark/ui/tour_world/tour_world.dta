@@ -627,7 +627,7 @@
                   tour_hb_leavevenue
                   tour_hb_returntohub})
             (confirm tour_hb_chooseset)
-            (option tour_hb_eventdetails))
+            (option tour_hb_manageband))
          ()})
    (focus tour_world_event_panel)
    (back

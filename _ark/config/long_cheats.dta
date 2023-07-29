@@ -1,3 +1,7 @@
+#define BAND_PROFILE_ALLOWED_SCREENS
+({'||' 
+   {== {ui current_screen} tour_world_event_screen}})
+
 #define OVERSHELL_DISALLOWED_SCREENS
 ({'||' 
    {== {ui current_screen} game_screen}
@@ -66,3 +70,9 @@
          {set $modifier_exit {ui current_screen}}
          {synth play button_error}
          {ui push_screen overshell_main_screen}}})
+((kPad_R1)
+   {if BAND_PROFILE_ALLOWED_SCREENS
+      {do
+         {net_sync set_ui_state kNetUI_BandProfile}                         
+         {ui goto_screen tour_profile_world_screen}
+         }})

@@ -11557,6 +11557,8 @@
    "Choose Venue")
 (tour_hb_callmanager
    "Call Manager")
+(tour_hb_manageband
+   "Manage Band")   
 (tour_hb_chooseset
    "Choose Setlist")
 (tour_hb_eventdetails
