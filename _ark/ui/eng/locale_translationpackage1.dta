@@ -6539,6 +6539,10 @@
    "Dead Ringer")
 (basictee_ringer_desc
    "Don't get mistaken for anyone but yourself. This tee is simple but uniquely you.")
+(punkytee_ringer
+   "Radbobble")
+(punkytee_ringer_desc
+   "Putting the 'I' in IP theft.")   
 (basictee_skullswirl
    "Skully Tee")
 (basictee_skullswirl_desc
@@ -6691,6 +6695,10 @@
    "Heartbreaker Leggings")
 (leggings_shiny_desc
    "You'll be the right kind of sinner to release their inner fantasies in these shiny leggings.")
+(leggings_latex
+   "Snapdragon Leggings") 
+(leggings_latex_desc
+   "Is this legwear or some new kind of water?")       
 (linenskirt_twotone
    "Miss Lizzy")
 (linenskirt_twotone_desc
