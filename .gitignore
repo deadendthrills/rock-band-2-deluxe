@@ -49,3 +49,9 @@ dependencies/dev_scripts/build_ark.py
 user_scripts/build_xbox.py
 user_scripts/build_xbox.py
 dependencies/dev_scripts/build_ark.py
+_build/xbox/charnames.zbm
+_build/xbox/default.xex
+_build/xbox/dx.dta
+_build/xbox/gen/\! FOR XENIA PLACE ROCK BAND 2 ARKS HERE FIRST \!.txt
+_build/xbox/videos/\! PLACE ROCK BAND 2 VIDEOS HERE FIRST \!.txt
+user_scripts/build_xbox.py
