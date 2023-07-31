@@ -1871,11 +1871,19 @@
          (patch_drool
             ../patchcreator/stickers_drool.milo
             preview_drool.tex
-            (sets general chest arm))                           
+            (sets general))
+         (patch_danieljohnston
+            ../patchcreator/stickers_danieljohnston.milo
+            preview_danieljohnston.tex
+            (sets general))                                        
          (patch_subhuman
             ../patchcreator/tattoos_subhuman.milo
             preview_sailor_jerry.tex
-            (sets chest arm))                  
+            (sets chest arm))
+         (patch_armslength
+            ../patchcreator/tattoos_sleeves.milo
+            preview_sailor_jerry.tex
+            (sets chest arm))                                
          (patch_sailor
             ../patchcreator/stickers_sailor_jerry.milo
             preview_sailor_jerry.tex
